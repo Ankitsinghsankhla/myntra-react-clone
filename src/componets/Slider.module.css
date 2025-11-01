@@ -1,0 +1,45 @@
+.sliderContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.swiper {
+    width: 100%;
+    /*max-width: 1200px;*/
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.swiperSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageGroup {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.imageGroup img {
+    width: 15%;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}

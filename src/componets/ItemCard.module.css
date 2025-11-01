@@ -1,0 +1,82 @@
+.cardContainer {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: row;
+    width: 500px;
+  }
+
+  
+  .cardContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .imageWrapper {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background: #f8f8f8;
+  }
+  
+  .imageWrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .discountBadge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .productName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+  }
+  
+  .currentPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4d;
+  }
+  
+  .originalPrice {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  .actionButton {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .actionButton:hover {
+    opacity: 0.9;
+  }
+  

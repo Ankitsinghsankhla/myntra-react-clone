@@ -1,0 +1,22 @@
+.pictureContainer{
+    
+}
+.pictureContainer img{
+    width: 100%;
+}
+.CombineImage{
+    width: 100%;
+    display: flex;
+}
+.CombineImage img{
+    width: 50%;
+
+}
+.PictureList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.PictureList img{
+    width: 15%;
+}

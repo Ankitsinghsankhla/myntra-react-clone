@@ -1,0 +1,9 @@
+.ProductListContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ProductListContainer img
+{
+height: 220px;
+}

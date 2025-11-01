@@ -1,0 +1,75 @@
+/* Footer Styling */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footerColumn {
+    width: 23%;
+    min-width: 200px;
+  }
+  
+  .footerColumn h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .footerColumn ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerColumn ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footerColumn ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .footerColumn ul li a:hover {
+    color: #ff3f6c;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+  }
+  
+  .socialIcons a {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .socialIcons a:hover {
+    color: #ff3f6c;
+  }
+  
+  .appIcons img {
+    width: 120px;
+    margin-top: 8px;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+  }
+  
